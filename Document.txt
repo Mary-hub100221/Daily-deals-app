@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DealMatch — Daily Deals & Price Compare</title>
+  <meta name="description" content="DealMatch aggregates daily deals and compares prices from Amazon, Flipkart, and Meesho. Get the best deal & support our app via affiliate links."/>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:0;color:#222;background:#f6f7fb}
+    header{background:#0b5cff;color:#fff;padding:28px 20px}
+    .container{max-width:900px;margin:20px auto;padding:0 20px}
+    h1{margin:0;font-size:28px}
+    p.lead{font-size:16px;color:#333}
+    .card{background:#fff;border-radius:10px;padding:18px;margin-top:18px;box-shadow:0 6px 18px rgba(20,20,40,0.06)}
+    .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:12px}
+    footer{font-size:13px;color:#666;margin:28px 0}
+    .btn{display:inline-block;background:#0b5cff;color:white;padding:10px 14px;border-radius:8px;text-decoration:none}
+    code{background:#eee;padding:2px 6px;border-radius:4px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>DealMatch</h1>
+      <p style="margin-top:6px">Daily deals & price comparisons from Amazon, Flipkart, Meesho — find the best price quickly.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>About the app</h2>
+      <p class="lead">DealMatch aggregates curated daily offers and compares product prices across major Indian marketplaces so you can quickly find the best deal. When you buy via a "Buy" button in our app, we may earn a small affiliate commission at no extra cost to you. This helps us keep the app free and maintain daily deal updates.</p>
+      <div class="features">
+        <div><strong>Daily Deals</strong><div>Handpicked deals across categories.</div></div>
+        <div><strong>Price Compare</strong><div>Side-by-side price comparison across stores.</div></div>
+        <div><strong>Affiliate Links</strong><div>We use affiliate links to earn commission; transparency & privacy respected.</div></div>
+        <div><strong>Notifications</strong><div>Optional push alerts for major discounts.</div></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Planned Platforms</h2>
+      <p>Initial release: Android (Google Play). Future: iOS and a web dashboard for deals curation.</p>
+      <p><strong>Contact:</strong> <a href="mailto:dealmatch.app@gmail.com">dealmatch.app@gmail.com</a></p>
+      <p><strong>Privacy & Affiliate Policy:</strong> <a href="#privacy">Read here</a></p>
+      <p style="margin-top:12px"><a class="btn" href="#privacy">Privacy & Affiliate Policy</a></p>
+    </section>
+
+    <section id="privacy" class="card">
+      <h2>Privacy & Affiliate Disclosure</h2>
+      <p>DealMatch uses affiliate links from partner programs including Amazon, Flipkart and third-party aggregators. If you purchase a product through an affiliate link, we may earn a commission. This does not affect your purchase price. We collect only minimal usage data for analytics (no personal data unless you create an account). For details, see the full <a href="#policy">privacy policy</a> and contact us at <a href="mailto:dealmatch.app@gmail.com">dealmatch.app@gmail.com</a>.</p>
+    </section>
+
+    <section class="card">
+      <h2>Developer notes</h2>
+      <p>App package name (example): <code>com.dealmatch.app</code></p>
+      <p>Google Play listing will be published once development and testing are complete.</p>
+    </section>
+
+    <footer>
+      <div>© <span id="year"></span> DealMatch — This page is a product information page for the upcoming DealMatch mobile app.</div>
+    </footer>
+
+  </main>
+
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>
